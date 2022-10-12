@@ -3,9 +3,20 @@
 
 
        <div class="container-box" style="margin-top:50px;">
-        <div class="form-group form-md-line-input">
-            <input type="text" class="form-control input-search" id="form_control_1" placeholder="Enter your name" v-model="keywords" >
+        
+
+
+        <div class="form-group form-md-line-input fixed">
+            <div class="box-top">
+                <p class="name total" style="font-weight:100">messages</p>
+                <p class="date price"><img :src="'./return.png'" width="10px" onclick="getTaskSMS()" /></p>
+            </div>
+
+
+            <input type="text" class="form-control input-search" id="form_control_1" placeholder="Search here..." v-model="keywords" >
         </div>
+
+
        <div class="box" v-for="(item,key,index) in items"  >
                 <p class="pmonth">{{key}} </p>
 
@@ -43,7 +54,7 @@
 
 
 
-         <div class="box-total">
+        <div class="box-total">
             <p class="name total">Total</p>
             <p class="date price">AED {{sum_all}}</p>
         </div>
@@ -181,6 +192,7 @@ a{
 .box{
   background: #dfdbdb6e;
   padding-bottom: 10px;
+  margin-top: 115px;
 }
 .container-box{
     width: 80%;
@@ -256,6 +268,21 @@ a{
     text-align: center;
     height: 26px;
     margin-top: 50px !important;
+}
+
+.fixed{
+    position: fixed;
+    z-index: 99999999999999999;
+    top: 54px;
+    width: 80%;
+}
+
+.box-top{
+    background: #57bde5 !important;
+    z-index: 99999999999999999;
+    width: 80%;
+    position: fixed;
+    top: 0px;
 }
 
 </style>

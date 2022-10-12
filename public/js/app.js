@@ -5325,6 +5325,17 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'App',
   components: {},
@@ -10529,7 +10540,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Poppins:400,400i,700);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n*, *::after, *::before{\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing:border-box;\n}\nbody{\r\n  font-family: \"Poppins\", sans-serif;\n}\ndiv.c{\r\n  position: relative;\r\n  margin-top: 6px;\r\n    margin-left: 10px;\n}\n.input{\r\n  position: absolute;\r\n  left: 0;\r\n  top: 0;\r\n  height: 100%;\r\n  width: 100%;\r\n  opacity:0;\r\n  visibility: 0;\n}\nlabel{\r\n  cursor: pointer;\r\n  position: relative;\r\n  display: grid;\r\n  align-items: center;\n}\ndiv.p{\r\n  max-height:0px;\r\n  overflow: hidden;\r\n  transition:max-height 0.5s;\r\n  background-color: #f7f6f6;\r\n  box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2);\r\n  width: 99%;\n}\ndiv.p p {\r\n  padding:11px;\n}\n.input:checked ~ h5 label::before{\r\n  border-left:15px solid transparent;\r\n  border-top:20px solid white;\r\n  margin-top:12px;\r\n  margin-right:10px;\n}\n.input:checked ~ h5 ~ div.p{\r\n  max-height:100px;\n}\na{\r\n  color:steelblue;\n}\n.box{\r\n  background: #dfdbdb6e;\r\n  padding-bottom: 10px;\n}\n.container-box{\r\n    width: 80%;\r\n    margin: auto;\n}\n.contant{\r\n    display:flex;\n}\n.cont-box{\r\n    margin-top: 5px;\r\n    font-size: 11px;\r\n    color: #000;\r\n    width:98%;\n}\n.name{\r\n    float: left;\r\n    display: inline-block;\n}\n.date{\r\n    float: right;\r\n    display: inline-block;\n}\n.input-search{\r\n    border-top: none;\r\n    border-right: none;\r\n    border-bottom: 2px solid rgb(23 136 203);\r\n    border-left: none;\r\n    border-radius: 0px;\r\n    box-shadow: none !important;\n}\n.message{\r\n    font-size:10px;\n}\n.box-total{\r\n    position: fixed;\r\n    width: 80%;\r\n    height: 28px;\r\n    background: #a7e1e7;\r\n    z-index: 9999999999999999999;\r\n    bottom: 0;\n}\n.price{\r\n    padding: 15px;\r\n    font-weight: 900;\r\n    line-height: 1px;\n}\n.sub-price{\r\n    padding: 10px;\n}\n.total{\r\n    padding: 15px;\r\n    font-weight: 900;\r\n    line-height: 1px;\n}\n.sub-total{\r\n    padding: 10px;\n}\n.pmonth{\r\n    background-color: var(--bs-body-bg);\r\n    text-align: center;\r\n    height: 26px;\r\n    margin-top: 50px !important;\n}\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n*, *::after, *::before{\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing:border-box;\n}\nbody{\r\n  font-family: \"Poppins\", sans-serif;\n}\ndiv.c{\r\n  position: relative;\r\n  margin-top: 6px;\r\n    margin-left: 10px;\n}\n.input{\r\n  position: absolute;\r\n  left: 0;\r\n  top: 0;\r\n  height: 100%;\r\n  width: 100%;\r\n  opacity:0;\r\n  visibility: 0;\n}\nlabel{\r\n  cursor: pointer;\r\n  position: relative;\r\n  display: grid;\r\n  align-items: center;\n}\ndiv.p{\r\n  max-height:0px;\r\n  overflow: hidden;\r\n  transition:max-height 0.5s;\r\n  background-color: #f7f6f6;\r\n  box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2);\r\n  width: 99%;\n}\ndiv.p p {\r\n  padding:11px;\n}\n.input:checked ~ h5 label::before{\r\n  border-left:15px solid transparent;\r\n  border-top:20px solid white;\r\n  margin-top:12px;\r\n  margin-right:10px;\n}\n.input:checked ~ h5 ~ div.p{\r\n  max-height:100px;\n}\na{\r\n  color:steelblue;\n}\n.box{\r\n  background: #dfdbdb6e;\r\n  padding-bottom: 10px;\r\n  margin-top: 115px;\n}\n.container-box{\r\n    width: 80%;\r\n    margin: auto;\n}\n.contant{\r\n    display:flex;\n}\n.cont-box{\r\n    margin-top: 5px;\r\n    font-size: 11px;\r\n    color: #000;\r\n    width:98%;\n}\n.name{\r\n    float: left;\r\n    display: inline-block;\n}\n.date{\r\n    float: right;\r\n    display: inline-block;\n}\n.input-search{\r\n    border-top: none;\r\n    border-right: none;\r\n    border-bottom: 2px solid rgb(23 136 203);\r\n    border-left: none;\r\n    border-radius: 0px;\r\n    box-shadow: none !important;\n}\n.message{\r\n    font-size:10px;\n}\n.box-total{\r\n    position: fixed;\r\n    width: 80%;\r\n    height: 28px;\r\n    background: #a7e1e7;\r\n    z-index: 9999999999999999999;\r\n    bottom: 0;\n}\n.price{\r\n    padding: 15px;\r\n    font-weight: 900;\r\n    line-height: 1px;\n}\n.sub-price{\r\n    padding: 10px;\n}\n.total{\r\n    padding: 15px;\r\n    font-weight: 900;\r\n    line-height: 1px;\n}\n.sub-total{\r\n    padding: 10px;\n}\n.pmonth{\r\n    background-color: var(--bs-body-bg);\r\n    text-align: center;\r\n    height: 26px;\r\n    margin-top: 50px !important;\n}\n.fixed{\r\n    position: fixed;\r\n    z-index: 99999999999999999;\r\n    top: 54px;\r\n    width: 80%;\n}\n.box-top{\r\n    background: #57bde5 !important;\r\n    z-index: 99999999999999999;\r\n    width: 80%;\r\n    position: fixed;\r\n    top: 0px;\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28448,7 +28459,28 @@ var render = function () {
       "div",
       { staticClass: "container-box", staticStyle: { "margin-top": "50px" } },
       [
-        _c("div", { staticClass: "form-group form-md-line-input" }, [
+        _c("div", { staticClass: "form-group form-md-line-input fixed" }, [
+          _c("div", { staticClass: "box-top" }, [
+            _c(
+              "p",
+              {
+                staticClass: "name total",
+                staticStyle: { "font-weight": "100" },
+              },
+              [_vm._v("messages")]
+            ),
+            _vm._v(" "),
+            _c("p", { staticClass: "date price" }, [
+              _c("img", {
+                attrs: {
+                  src: "./return.png",
+                  width: "10px",
+                  onclick: "getTaskSMS()",
+                },
+              }),
+            ]),
+          ]),
+          _vm._v(" "),
           _c("input", {
             directives: [
               {
@@ -28462,7 +28494,7 @@ var render = function () {
             attrs: {
               type: "text",
               id: "form_control_1",
-              placeholder: "Enter your name",
+              placeholder: "Search here...",
             },
             domProps: { value: _vm.keywords },
             on: {
